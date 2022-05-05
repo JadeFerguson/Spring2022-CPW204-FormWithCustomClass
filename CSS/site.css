@@ -1,13 +1,38 @@
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
 input[type=text] {
     padding: 0.10em;
+    margin-top: 0.6em;
 }
 
-label {
-    width: 50%;
-    display: inline-block;
-    text-align: right;
+body {
+    text-align: center;
 }
 
-input[type=checkbox], input[type=button] {
-    margin-left: 50%;
+input[type=checkbox]{
+    margin-left: 1%;
+}
+
+input[type=button] {
+    text-align: center;
+    color: beige;
+    padding: .5em;
+    border-radius: .3em;
+    background-color: rgb(4, 24, 95);
+    color: beige;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 0.3em;
+}
+
+#validation-summary {
+    color: red;
+    list-style-type: none;
+}
+
+.rating-error {
+    font-style: italic;
 }
